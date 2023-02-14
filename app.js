@@ -28,6 +28,10 @@ app.use(express.urlencoded({ extended: true }))
 
 app.use(session({ secret: 'thisshouldbeagoodsecret' }))
 
+app.get('/', (req, res) => {
+  res.send('working')
+})
+
 app.post('/user/signup', async (req, res) => {
   try {
     const { username, password } = req.body
