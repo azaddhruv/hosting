@@ -135,6 +135,6 @@ app.post('/products', isAuth, async (req, res) => {
   })
 })
 
-app.listen(8000, () => {
-  console.log('Server started on port 8000')
+app.listen(80, () => {
+  console.log('Server started on port 80')
 })
