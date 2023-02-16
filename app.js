@@ -10,7 +10,7 @@ const { isAuth } = require('./middleware')
 
 mongoose
   .connect(
-    'mongodb+srv://azadDhruv:azadDhruv@cluster0.vuoabwi.mongodb.net/?retryWrites=true&w=majority',
+    '',
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
